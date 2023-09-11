@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap");
+
+.container {
+  max-width: 1862px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+nav {
+}
+
+.menu div {
+  padding: 20px 10px;
+}
+
+.menu div:hover {
+  background-color: green;
+}
+
+/* .menu div:hover::before {
+  content: "";
+  position: absolute;
+  background-color: green;
+  color: white;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+} */
+
+.nav-search-area {
+  background-image: url("../images/searchIcon.svg");
+  background-repeat: no-repeat;
+  background-position: 92% center;
+  padding: 8px 35px 8px 25px;
+  border-radius: 25px;
+  width: 175px;
+}
+
+.bootcamp-area {
+  padding: 9px 0;
+}
+
+.bootcamps-btn {
+  background-color: white;
+  border: none;
+  padding: 8px 16px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.bootcamps-btn:hover {
+  background-color: #c4c4c1;
+}
+
+.spaces-btn {
+  background-color: white;
+  border: none;
+  padding: 8px 16px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.spaces-btn:hover {
+  background-color: #c4c4c1;
+}
+
+.sign-up {
+  background: green;
+  padding: 11px 30px;
+  border-radius: 37px;
+     display: inline-block;
+  color: white;
+  position: relative;
+  left: 25px;
+}
+
+.log-in {
+  padding: 11px 30px;
+  background: #a9eba9;
+
+  display: inline-block;
+  border-top-right-radius: 37px;
+
+  border-bottom-right-radius: 37px;
+}
+
+.log-in:hover {
+  background-color: red;
+  /* position: relative;
+  z-index: 4;
+  cursor: pointer; */
+}
+
+.sign-up:hover {
+  background-color: yellow;
+  /* position: relative;
+  z-index: 4;
+  cursor: pointer; */
+}
+
+.language-section {
+  background-color: black;
+  color: white;
+  padding: 9px 0;
+}
