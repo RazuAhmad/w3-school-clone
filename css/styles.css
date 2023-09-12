@@ -76,7 +76,7 @@ nav {
   background: green;
   padding: 11px 30px;
   border-radius: 37px;
-     display: inline-block;
+  display: inline-block;
   color: white;
   position: relative;
   left: 25px;
@@ -107,7 +107,114 @@ nav {
 }
 
 .language-section {
-  background-color: black;
+  background-color: #3a3838;
   color: white;
   padding: 9px 0;
+}
+
+/* .all-links-area div:hover {
+  background-color: black;
+} */
+
+/* .javascript-btn {
+  background-color: green;
+} */
+
+.topics-lists {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.content-section {
+  background-color: #cbcaca;
+}
+
+.content-area {
+  background-color: white;
+}
+
+.content-description {
+  background-color: #d9eee1;
+  padding: 47px 45px;
+}
+
+.content-area-heading {
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.home-btn {
+  background-color: green;
+  padding: 8px 19px;
+  border-radius: 5px;
+  border: 1px solid green;
+  font-size: 18px;
+  color: white;
+}
+
+.next-btn {
+  background-color: green;
+  padding: 8px 19px;
+  border-radius: 5px;
+  border: 1px solid green;
+  font-size: 18px;
+  color: white;
+  background-image: url("../images/arrowSide.svg");
+  background-repeat: no-repeat;
+  background-position: 65px center;
+}
+
+.content-description p {
+  margin-bottom: 17px;
+}
+
+.start-js-btn {
+  padding: 11px 15px;
+  border-radius: 7px;
+  border: none;
+  font-size: 18px;
+  background-color: green;
+  color: white;
+}
+
+.try-it-yourself-area {
+  background-color: #d7d4d4;
+  padding: 25px 43px;
+  border-radius: 8px;
+}
+
+.try-it-yourself-area h2 {
+  padding-left: 2px;
+}
+
+.example-practice-field {
+  background-color: white;
+  padding: 25px 20px;
+}
+
+.example-area-heading {
+  padding-left: 45px;
+}
+
+.date-time-btn {
+  padding: 7px 15px;
+  border-radius: 6px;
+  border: 1px solid gray;
+}
+
+.try-it-btn {
+  padding: 12px 29px;
+  border-radius: 7px;
+  border: none;
+  font-size: 15px;
+  background-color: green;
+  color: white;
+}
+
+.adverstisement-area {
+  background-color: white;
+}
+
+.color-picker {
+  text-align: center;
 }
